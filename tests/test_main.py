@@ -16,7 +16,7 @@ def test_root_returns_200():
 
 def test_root_message():
     response = client.get('/')
-    assert response.json()['message'] == 'Calculator API is running'
+    assert response.json()['message'] == 'Calculator API is running, this is my first devops project using automated CI/CD'
 
 
 # ── Add endpoint ───────────────────────────────────────
