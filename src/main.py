@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get('/')
 def root():
-    return {'message': 'Calculator API is running'}
+    return {'message': 'Calculator API is running, this is my first devops project using automated CI/CD'}
 
 
 @app.get('/add')
